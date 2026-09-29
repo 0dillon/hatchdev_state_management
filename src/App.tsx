@@ -9,7 +9,7 @@ const App = () => {
       <Sidebar />
       <div className="flex-1 flex flex-col">
         <Navbar />
-        <main className="flex-1 p-8 overflow-y-auto">
+        <main className="flex-1 p-8 ">
           <div className="max-w-4xl mx-auto space-y-6">
             <UserPage />
             <Login /> 
