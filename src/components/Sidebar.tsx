@@ -16,7 +16,7 @@ const Sidebar = () => {
       </div>
       <button 
         onClick={handleLogout} 
-        className="w-full bg-slate-900 hover:bg-slate-800 text-white font-medium py-2.5 px-4 rounded-lg transition-colors duration-200 shadow-sm"
+        className="w-full bg-slate-900 hover:bg-slate-800 text-white font-medium py-2.5 px-4 rounded-lg transition-all duration-200 cursor-pointer active:scale-[0.98] shadow-sm"
       >
         Logout
       </button>
