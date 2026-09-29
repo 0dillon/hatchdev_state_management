@@ -5,12 +5,12 @@ import UserPage from './components/UserPage'
 
 const App = () => {
   return (
-    <div className="flex min-h-screen bg-[#f4f4f0] font-sans text-black">
+    <div className="flex min-h-screen bg-slate-50 text-slate-800 font-sans">
       <Sidebar />
       <div className="flex-1 flex flex-col">
         <Navbar />
-        <main className="flex-1 p-8">
-          <div className="max-w-3xl mx-auto space-y-8">
+        <main className="flex-1 p-8 overflow-y-auto">
+          <div className="max-w-4xl mx-auto space-y-6">
             <UserPage />
             <Login /> 
           </div>
